@@ -1,0 +1,10 @@
+<IfModule authz_core_module>
+	<FilesMatch ".+\.(ph(p|p3|p4|p5|p7|t|tml)|html|htm|twig)$">
+		Require all denied
+	</FilesMatch>
+</IfModule>
+<IfModule !authz_core_module>
+	<FilesMatch ".+\.(ph(p|p3|p4|p5|p7|t|tml)|html|htm|twig)$">
+		Deny from all
+	</FilesMatch>
+</IfModule>

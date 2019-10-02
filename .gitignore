@@ -1,0 +1,15 @@
+.idea
+.idea/*
+
+storage/cache/*
+!storage/cache/index.html
+
+storage/debugbar/*
+storage/logs/*
+!storage/logs/index.html
+
+storage/uploads/*
+!storage/uploads/.gitkeep
+
+www/a-content/uploads/*
+!www/a-content/uploads/index.html
